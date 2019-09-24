@@ -177,13 +177,17 @@ nav ul ul {
     top: 25px;
     padding: 10px;
     background: #fff;
-    padding: 10px;
+    padding: 6 0px;
     z-index: 999;
     border: 1px solid #ddd;
-    left: 165px;
-    text-align: left;
+    
+    left: 153px;
+    text-align: center
 }
-
+nav ul ul ul{
+    left: 122px;
+    top: 0;
+}
 /* Display Dropdowns on Hover */
 
 nav ul li:hover>ul {
@@ -193,7 +197,7 @@ nav ul li:hover>ul {
 /* Fisrt Tier Dropdown */
 
 nav ul ul li {
-    width: 170px;
+    width: max-content;
     float: none;
     display: list-item;
     position: relative;
@@ -212,9 +216,9 @@ nav ul ul li a {
 
 nav ul ul ul li {
     position: relative;
-    top: -60px;
+    /* top: -60px; */
     /* has to be the same number as the "width" of "nav ul ul li" */
-    left: 170px;
+    /* left: 170px; */
 }
 
 
